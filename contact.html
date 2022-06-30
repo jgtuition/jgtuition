@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/contact.css">
+
+  <title>JG Primary Tuition</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/help.html">How I can Help</a></li>
+      <a href="/"><img src="" alt="logo" /></a>
+      <li><a href="/contact.html" class="active">Contact Me</a></li>
+      <li><a href="/testimonials.html">Testimonials</a></li>
+    </ul>
+  </nav>
+  <header>
+    <div>
+      <h1>Contact Me</h1>
+      <h3>Get in Touch</h3>
+    </div>
+  </header>
+
+  <section class="contact">
+    <form action="https://formspree.io/f/mrgjvwbo" method="post">
+      <label for="name">Name</label>
+      <input name="Name" id="name" type="text" placeholder="Name" required>
+
+      <label for="email">Email</label>
+      <input name="Email" id="email" type="email" placeholder="Email">
+
+      <label for="message">Message</label>
+      <textarea name="Message" rows="8" cols="80" id="message" placeholder="Message"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>&copy; JG Primary Tuition <span id='year'></span></footer>
+  <script type="text/javascript">
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</body>
+
+</html>

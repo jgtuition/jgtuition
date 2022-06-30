@@ -1,0 +1,15 @@
+.main ul {
+  font-size: 1.5em;
+
+}
+.main {
+  width: 70%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+@media only screen and (max-width: 750px) {
+  .main ul {
+    font-size: 1em;
+  }
+}

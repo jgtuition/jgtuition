@@ -1,0 +1,19 @@
+.main ul {
+  font-size: 1.5em;
+
+}
+.main {
+  width: 70%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.person {
+  font-style: italic;
+  /* margin-left: 2em; */
+}
+
+hr {
+  width: 80%;
+  margin: 2em auto;
+}
