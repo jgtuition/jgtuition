@@ -35,3 +35,8 @@ section {
 .contact button:hover {
   background-color: #67a26f;
 }
+
+header {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/IMG_2308.jpg');
+  background-position: bottom;
+}
