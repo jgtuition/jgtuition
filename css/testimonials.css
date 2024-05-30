@@ -17,3 +17,8 @@ hr {
   width: 80%;
   margin: 2em auto;
 }
+
+header {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/IMG_2327.jpg');
+  background-position: top;
+}
