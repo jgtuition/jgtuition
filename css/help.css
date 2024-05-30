@@ -8,6 +8,11 @@
   margin-top: 2em;
 }
 
+header {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/IMG_2307.jpg');
+  background-position: center;
+}
+
 @media only screen and (max-width: 750px) {
   .main ul {
     font-size: 1em;
