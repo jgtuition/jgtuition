@@ -85,6 +85,10 @@ header h3 {
   font-size: 1.5em;
 }
 
+h2 {
+    font-family: 'Oswald', serif;
+}
+
 .logo {
   /* aspect-ratio: 1; */
   width: 250px;
